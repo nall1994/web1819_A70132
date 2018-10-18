@@ -3,14 +3,14 @@ import jdk.nashorn.internal.parser.JSONParser;
 import java.io.*;
 import java.util.ArrayList;
 import org.json.*;
-import sun.tools.jstat.Jstat;
+
 
 public class IndexGenerator {
     private static ArrayList<IndexObject> objects_list = new ArrayList<>();
 
     public static void main(String[] args) {
 
-        File dir = new File("json/");
+        File dir = new File("../../json/");
         System.out.println(dir.getAbsolutePath());
         File[] files = dir.listFiles(new FilenameFilter() {
             @Override
@@ -45,7 +45,7 @@ public class IndexGenerator {
         }
 
         try {
-            File f = new File("json/index.json");
+            File f = new File("../../json/index.json");
             FileWriter fw = new FileWriter(f);
             fw.write(jArray.toString(2));
             fw.flush();
