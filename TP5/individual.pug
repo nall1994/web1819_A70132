@@ -1,0 +1,48 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-light-grey
+                h1= obra.titulo
+            .w3-container
+            table.w3-table.w3-bordered
+                tr
+                    th Tipo de Obra
+                    td= obra.tipo
+                tr
+                    th Compositor
+                    td= obra.compositor
+            if obra.instrumentos
+                h2 Instrumentos
+                    table.w3-table.w3-bordered
+                        tr
+                            th Nome
+                            th Partitura
+                            th Voz
+                            th Clave
+                            th Afinacao
+                        each inst in obra.instrumentos
+                            tr
+                                td= inst.nome
+                                td
+                                    a(href= inst.partitura.path)= inst.partitura.path
+                                if inst.partitura.voz
+                                    td= inst.partitura.voz
+                                else
+                                    td -
+                                if inst.partitura.clave
+                                    td= inst.partitura.clave
+                                else
+                                    td -
+                                if inst.partitura.afinacao
+                                    td= inst.partitura.afinacao
+                                else
+                                    td -
+            address
+                a(href="http://localhost:5000") Voltar ao Índice
+            footer.w3-container.w3-light-grey
+                address Gerado por ObrasMusicaisApp
+                    
+                        
+                    

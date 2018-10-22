@@ -1,138 +1,8 @@
 [
   {
-    "file_path": "m18.json",
-    "titulo": "12 de Abril",
-    "_id": "m18"
-  },
-  {
-    "file_path": "m34.json",
-    "titulo": "Xabia",
-    "_id": "m34"
-  },
-  {
-    "file_path": "m22.json",
-    "titulo": "Marcha Eslava",
-    "_id": "m22"
-  },
-  {
-    "file_path": "m14.json",
-    "titulo": "Filarmonia",
-    "_id": "m14"
-  },
-  {
-    "file_path": "m43.json",
-    "titulo": "Marcha Radetzky",
-    "_id": "m43"
-  },
-  {
-    "file_path": "m42.json",
-    "titulo": "Pilatus: Mountain of Dragons",
-    "_id": "m42"
-  },
-  {
-    "file_path": "m15.json",
-    "titulo": "Caçadores do I",
-    "_id": "m15"
-  },
-  {
     "file_path": "m1.json",
     "titulo": "Homenagem a J. Serra",
     "_id": "m1"
-  },
-  {
-    "file_path": "m23.json",
-    "titulo": "Fate of the Gods",
-    "_id": "m23"
-  },
-  {
-    "file_path": "m35.json",
-    "titulo": "Bands Around the World",
-    "_id": "m35"
-  },
-  {
-    "file_path": "m19.json",
-    "titulo": "Tarântula",
-    "_id": "m19"
-  },
-  {
-    "file_path": "m12.json",
-    "titulo": "São Bento",
-    "_id": "m12"
-  },
-  {
-    "file_path": "m45.json",
-    "titulo": "Momentos Menores",
-    "_id": "m45"
-  },
-  {
-    "file_path": "m28.json",
-    "titulo": "Abba Mia",
-    "_id": "m28"
-  },
-  {
-    "file_path": "m49.json",
-    "titulo": "Tannhauser Ouverture",
-    "_id": "m49"
-  },
-  {
-    "file_path": "m32.json",
-    "titulo": "Cavalaria Ligeira",
-    "_id": "m32"
-  },
-  {
-    "file_path": "m24.json",
-    "titulo": "Vamos à Romaria",
-    "_id": "m24"
-  },
-  {
-    "file_path": "m6.json",
-    "titulo": "São Martinho",
-    "_id": "m6"
-  },
-  {
-    "file_path": "m7.json",
-    "titulo": "Avé Maria",
-    "_id": "m7"
-  },
-  {
-    "file_path": "m25.json",
-    "titulo": "Português Suave",
-    "_id": "m25"
-  },
-  {
-    "file_path": "m33.json",
-    "titulo": "Paquito Chocolatero",
-    "_id": "m33"
-  },
-  {
-    "file_path": "m48.json",
-    "titulo": "Transfiguração",
-    "_id": "m48"
-  },
-  {
-    "file_path": "m29.json",
-    "titulo": "Ross Roy",
-    "_id": "m29"
-  },
-  {
-    "file_path": "m44.json",
-    "titulo": "Vila Franca",
-    "_id": "m44"
-  },
-  {
-    "file_path": "m13.json",
-    "titulo": "Casa de S. Paulo",
-    "_id": "m13"
-  },
-  {
-    "file_path": "m8.json",
-    "titulo": "Corpo Místico",
-    "_id": "m8"
-  },
-  {
-    "file_path": "m47.json",
-    "titulo": "Bailar em Nespereira",
-    "_id": "m47"
   },
   {
     "file_path": "m10.json",
@@ -140,74 +10,34 @@
     "_id": "m10"
   },
   {
-    "file_path": "m131.json",
-    "titulo": "Alvamar Overture",
-    "_id": "m131"
-  },
-  {
-    "file_path": "m4.json",
-    "titulo": "Manuel Joaquim ALmeida",
-    "_id": "m4"
-  },
-  {
-    "file_path": "m26.json",
-    "titulo": "Cycles and Myths",
-    "_id": "m26"
-  },
-  {
-    "file_path": "m31.json",
-    "titulo": "Highlights from 'Chess'",
-    "_id": "m31"
-  },
-  {
-    "file_path": "m27.json",
-    "titulo": "Canções da Tradição",
-    "_id": "m27"
-  },
-  {
-    "file_path": "m5.json",
-    "titulo": "Holiday in Rio",
-    "_id": "m5"
-  },
-  {
-    "file_path": "m50.json",
-    "titulo": "Harmonique",
-    "_id": "m50"
-  },
-  {
     "file_path": "m11.json",
     "titulo": "Invocação a Deus",
     "_id": "m11"
   },
   {
-    "file_path": "m46.json",
-    "titulo": "Santana",
-    "_id": "m46"
+    "file_path": "m12.json",
+    "titulo": "São Bento",
+    "_id": "m12"
   },
   {
-    "file_path": "m9.json",
-    "titulo": "Súplica",
-    "_id": "m9"
+    "file_path": "m13.json",
+    "titulo": "Casa de S. Paulo",
+    "_id": "m13"
   },
   {
-    "file_path": "m2.json",
-    "titulo": "Armindo Alves",
-    "_id": "m2"
+    "file_path": "m131.json",
+    "titulo": "Alvamar Overture",
+    "_id": "m131"
   },
   {
-    "file_path": "m20.json",
-    "titulo": "Cassiopeia",
-    "_id": "m20"
+    "file_path": "m14.json",
+    "titulo": "Filarmonia",
+    "_id": "m14"
   },
   {
-    "file_path": "m36.json",
-    "titulo": "Hispânico",
-    "_id": "m36"
-  },
-  {
-    "file_path": "m41.json",
-    "titulo": "Sonhos de Portugal",
-    "_id": "m41"
+    "file_path": "m15.json",
+    "titulo": "Caçadores do I",
+    "_id": "m15"
   },
   {
     "file_path": "m16.json",
@@ -220,9 +50,24 @@
     "_id": "m17"
   },
   {
-    "file_path": "m40.json",
-    "titulo": "Xutos Medley",
-    "_id": "m40"
+    "file_path": "m18.json",
+    "titulo": "12 de Abril",
+    "_id": "m18"
+  },
+  {
+    "file_path": "m19.json",
+    "titulo": "Tarântula",
+    "_id": "m19"
+  },
+  {
+    "file_path": "m2.json",
+    "titulo": "Armindo Alves",
+    "_id": "m2"
+  },
+  {
+    "file_path": "m20.json",
+    "titulo": "Cassiopeia",
+    "_id": "m20"
   },
   {
     "file_path": "m21.json",
@@ -230,8 +75,163 @@
     "_id": "m21"
   },
   {
+    "file_path": "m22.json",
+    "titulo": "Marcha Eslava",
+    "_id": "m22"
+  },
+  {
+    "file_path": "m23.json",
+    "titulo": "Fate of the Gods",
+    "_id": "m23"
+  },
+  {
+    "file_path": "m24.json",
+    "titulo": "Vamos à Romaria",
+    "_id": "m24"
+  },
+  {
+    "file_path": "m25.json",
+    "titulo": "Português Suave",
+    "_id": "m25"
+  },
+  {
+    "file_path": "m26.json",
+    "titulo": "Cycles and Myths",
+    "_id": "m26"
+  },
+  {
+    "file_path": "m27.json",
+    "titulo": "Canções da Tradição",
+    "_id": "m27"
+  },
+  {
+    "file_path": "m28.json",
+    "titulo": "Abba Mia",
+    "_id": "m28"
+  },
+  {
+    "file_path": "m29.json",
+    "titulo": "Ross Roy",
+    "_id": "m29"
+  },
+  {
     "file_path": "m3.json",
     "titulo": "1989",
     "_id": "m3"
+  },
+  {
+    "file_path": "m31.json",
+    "titulo": "Highlights from 'Chess'",
+    "_id": "m31"
+  },
+  {
+    "file_path": "m32.json",
+    "titulo": "Cavalaria Ligeira",
+    "_id": "m32"
+  },
+  {
+    "file_path": "m33.json",
+    "titulo": "Paquito Chocolatero",
+    "_id": "m33"
+  },
+  {
+    "file_path": "m34.json",
+    "titulo": "Xabia",
+    "_id": "m34"
+  },
+  {
+    "file_path": "m35.json",
+    "titulo": "Bands Around the World",
+    "_id": "m35"
+  },
+  {
+    "file_path": "m36.json",
+    "titulo": "Hispânico",
+    "_id": "m36"
+  },
+  {
+    "file_path": "m4.json",
+    "titulo": "Manuel Joaquim ALmeida",
+    "_id": "m4"
+  },
+  {
+    "file_path": "m40.json",
+    "titulo": "Xutos Medley",
+    "_id": "m40"
+  },
+  {
+    "file_path": "m41.json",
+    "titulo": "Sonhos de Portugal",
+    "_id": "m41"
+  },
+  {
+    "file_path": "m42.json",
+    "titulo": "Pilatus: Mountain of Dragons",
+    "_id": "m42"
+  },
+  {
+    "file_path": "m43.json",
+    "titulo": "Marcha Radetzky",
+    "_id": "m43"
+  },
+  {
+    "file_path": "m44.json",
+    "titulo": "Vila Franca",
+    "_id": "m44"
+  },
+  {
+    "file_path": "m45.json",
+    "titulo": "Momentos Menores",
+    "_id": "m45"
+  },
+  {
+    "file_path": "m46.json",
+    "titulo": "Santana",
+    "_id": "m46"
+  },
+  {
+    "file_path": "m47.json",
+    "titulo": "Bailar em Nespereira",
+    "_id": "m47"
+  },
+  {
+    "file_path": "m48.json",
+    "titulo": "Transfiguração",
+    "_id": "m48"
+  },
+  {
+    "file_path": "m49.json",
+    "titulo": "Tannhauser Ouverture",
+    "_id": "m49"
+  },
+  {
+    "file_path": "m5.json",
+    "titulo": "Holiday in Rio",
+    "_id": "m5"
+  },
+  {
+    "file_path": "m50.json",
+    "titulo": "Harmonique",
+    "_id": "m50"
+  },
+  {
+    "file_path": "m6.json",
+    "titulo": "São Martinho",
+    "_id": "m6"
+  },
+  {
+    "file_path": "m7.json",
+    "titulo": "Avé Maria",
+    "_id": "m7"
+  },
+  {
+    "file_path": "m8.json",
+    "titulo": "Corpo Místico",
+    "_id": "m8"
+  },
+  {
+    "file_path": "m9.json",
+    "titulo": "Súplica",
+    "_id": "m9"
   }
 ]

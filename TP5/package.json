@@ -1,0 +1,14 @@
+{
+  "name": "tp5",
+  "version": "1.0.0",
+  "description": "trabalho de casa 5",
+  "main": "server_tp5.js",
+  "scripts": {
+    "test": "node server_tp5.js"
+  },
+  "author": "Nuno Leite",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}
