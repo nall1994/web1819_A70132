@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifesto>
     <meta>
-        <identificador> web2018::A70132::T5</identificador>
-        <titulo> TPC5 - Aplicação de NodeJs e PUG </titulo>
-        <subtitulo> Construção de um servidor para o website Obras Musicais</subtitulo>
-        <dinicio> 18/10/2018</dinicio>
-        <dfim> 22/10/2018 </dfim>
+        <identificador> web2018::A70132::T6</identificador>
+        <titulo> TPC6 - Aplicação de NodeJs e PUG </titulo>
+        <subtitulo> Construção de website de lista de tarefas</subtitulo>
+        <dinicio> 25/10/2018</dinicio>
+        <dfim> 26/10/2018 </dfim>
         <supervisor>
             <nome> José Carlos Ramalho</nome>
             <email> jcr@di.uminho.pt</email>
@@ -22,19 +22,15 @@
         </membro>
     </equipa>
     <resumo>
-        <para> O objetivo deste trabalho assenta na construção de um servidor, utilizando para o efeito o <italico>NodeJS</italico>, capaz de fornecer as páginas pedidas pelo cliente, sejam elas obras musicais, o indíce ou a própria folha de estilos.</para>
-        <para> O servidor deve receber pedidos para o servidor local (<italico>localhost</italico>) e devolver corretamente a página pedida.</para>
-        <para> O projeto <italico>NodeJS</italico> foi gerido com o <italico>package manager</italico> do <italico>NodeJS</italico> permitindo guardar as dependências para os projetos permanentemente.</para>
-        <para> O <italico><negrito> rendering </negrito></italico> das páginas é feito com recurso à linguagem <italico>PUG</italico> e a ficheiros de dados em <italico>JSON</italico>.</para>
-        <para> Tendo em conta que o <italico>dataset</italico> fornecido não continha um ficheiro de indíce, este foi gerado recorrendo a um pequeno programa em <italico>JAVA</italico>.</para>
-        
+        <para> O objetivo deste trabalho assenta na construção de um servidor, utilizando para o efeito o <italico>NodeJS</italico>, capaz de suportar um website de uma lista de tarefas.</para>
+        <para> Este website permite o registo, listagem e remoção de tarefas.</para>
+        <para> O projeto <italico>NodeJS</italico> foi gerido com o <italico>package manager</italico> do <italico>NodeJS</italico> permitindo guardar as dependências para os projetos permanentemente (<italico>pug</italico> e <italico>jsonfile</italico>). O servidor é corrido recorrendo ao comando <italico>npm test</italico>.</para>
+        <para> O <italico><negrito> rendering </negrito></italico> das páginas é feito com recurso à linguagem <italico>PUG</italico> e a uma base de dados dinâmica em <italico>JSON</italico>.</para>
+        <para> Na secção de resultados aparecem apenas os três resultados principais do trabalho, sendo que os restantes ficheiros (<italico>pug</italico> e <italico>json</italico>) se encontram no repositório do <italico>Github</italico>.</para>
     </resumo>
     <resultados>
-        <resultado url="manifesto_tp5.xml"> Manifesto (formato XML)</resultado>
-        <resultado url="manifesto_tp5.html"> Manifesto (formato HTML)</resultado>
-        <resultado url="server_tp5.js"> Servidor em NodeJS</resultado>
-        <resultado url="layout.pug">Layout principal das páginas</resultado>
-        <resultado url="index.pug">Restantes elementos de layout do indíce</resultado>
-        <resultado url="individual.pug">Restantes elementos de layout de uma página de uma obra</resultado>
+        <resultado url="manifesto_tp6.xml"> Manifesto (formato XML)</resultado>
+        <resultado url="manifesto_tp6.html"> Manifesto (formato HTML)</resultado>
+        <resultado url="serverTarefas.js"> Servidor em NodeJS</resultado>
     </resultados>
 </manifesto>
