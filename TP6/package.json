@@ -1,0 +1,15 @@
+{
+  "name": "tp6",
+  "version": "1.0.0",
+  "description": "Trabalho de Casa - Listas de Tarefas",
+  "main": "serverTarefas.js",
+  "scripts": {
+    "test": "node serverTarefas.js"
+  },
+  "author": "Nuno Leite",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "pug": "^2.0.3"
+  }
+}

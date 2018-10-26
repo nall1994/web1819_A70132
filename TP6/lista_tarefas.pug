@@ -1,0 +1,29 @@
+extends layout
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3(align='center') Lista de Tarefas
+            .w3-container.w3-light-grey
+                a.w3-button.w3-large.w3-circle.w3-xlarge.w3-ripple.w3-indigo(href="/apagar", style='margin-left: 35%;') -
+                a.w3-button.w3-large.w3-circle.w3-xlarge.w3-ripple.w3-indigo(href='/registo' , style='margin-left: 20%') +
+            .w3-container
+                each tipo in types
+                    h4.w3-blue(align='center')= tipo
+                    table.w3-table-all
+                        tr
+                            th Data de Registo
+                            th Data Limite
+                            th Descrição
+                        each tarefa in lista
+                            if tarefa.tipo == tipo && tarefa.apagado == 'nao'
+                                tr
+                                    td= tarefa.dataRegisto
+                                    td= tarefa.dataLimite
+                                    td= tarefa.descricao
+                    br
+                    hr.w3-color-teal(style='height: 2px;color: #008080; background-color: #008080;')
+                br
+            footer.w3-container.w3-teal
+                address Gerado por ListaTarefasApp
+                    a(href='/')
