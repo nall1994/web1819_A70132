@@ -1,0 +1,35 @@
+extends layout
+block corpo
+    header.w3-container.w3-teal
+        h2(align='center') Apagar Tarefas
+    .w3-container
+        each tipo in types
+                    h4.w3-blue(align='center')= tipo
+                    table.w3-table-all
+                        tr
+                            th Número de Ordem
+                            th Data de Registo
+                            th Data Limite
+                            th Descrição
+                        each tarefa in lista
+                            if tarefa.tipo == tipo && tarefa.apagado == 'nao'
+                                tr
+                                    td= tarefa.id
+                                    td= tarefa.dataRegisto
+                                    td= tarefa.dataLimite
+                                    td= tarefa.descricao
+                    br
+                    hr.w3-color-teal(style='height: 2px;color: #008080; background-color: #008080;')
+                    .w3-container.w3-light-grey
+        br
+        br
+        form(action='/apagaTarefas', method='POST')
+            label.w3-teal
+                b Indique os números de ordem (separados por vírgula)
+            input.w3-input.w3-border.w3-light-grey(type='text' name='ids')
+            input.w3-input.w3-border.w3-indigo(type='submit',value='apagar')
+        br
+        br
+    footer.w3-container.w3-teal
+        address Gerado por ListaTarefasApp
+        a.w3-indigo(href='/') Voltar à página principal
