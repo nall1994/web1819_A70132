@@ -13,7 +13,8 @@ block content
                         th Data de Submissão
                     each ficheiro in ficheiros     
                         tr
-                            td= ficheiro.nome
+                            td
+                                a(href='http://localhost:7000/uploaded/' + ficheiro.nome)= ficheiro.nome
                             td= ficheiro.descricao
                             td= ficheiro.dataRegisto
             br

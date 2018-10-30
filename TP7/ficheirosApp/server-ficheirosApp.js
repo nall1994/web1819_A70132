@@ -8,6 +8,8 @@ var jsonfile = require('jsonfile')
 
 var catalog = './uploaded/catalog.json'
 
+var link_file = new RegExp('/uploaded/*')
+
 var app = express()
 
 app.use(logger('combined'))
@@ -22,6 +24,15 @@ app.all('*',(req,res,next)=> {
 app.get('/',(req,res)=> {
     res.write(pug.renderFile('form_ficheiro.pug'))
     res.end()
+})
+
+app.get(link_file,(req,res)=> {
+    var catchFile = req.url.split('/')
+    fs.readFile('uploaded/' + catchFile[2],(erro,dados) => {
+        if(!erro) res.write(dados)
+        else res.write(pug.renderFile('erro.pug',{e : 'O ficheiro que procurou não foi encontrado!'}))
+        res.end()
+    })
 })
 
 app.get('/w3.css',(req,res)=> {
