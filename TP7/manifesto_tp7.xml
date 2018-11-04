@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <identificador> web2018::A70132::T7</identificador>
+        <titulo> TPC6 - Aplicação de NodeJs e PUG </titulo>
+        <subtitulo> Construção de um website de submissão e armazenamento de ficheiros</subtitulo>
+        <dinicio> 30/10/2018</dinicio>
+        <dfim> 04/11/2018 </dfim>
+        <supervisor>
+            <nome> José Carlos Ramalho</nome>
+            <email> jcr@di.uminho.pt</email>
+            <website> http://www4.di.uminho.pt/~jcr/ </website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome> Nuno André Lopes Leite</nome>
+            <identificador> A70132</identificador>
+            <email> a70132@alunos.uminho.pt</email>
+            <foto path="nuno.jpg"/>
+        </membro>
+    </equipa>
+    <resumo>
+        <para> O objetivo deste trabalho assenta na construção de um servidor, utilizando para o efeito o <italico>NodeJS</italico>, capaz de suportar um website de submissão e armazenamento de ficheiros.</para>
+        <para> Este website permite a submissão de um ficheiro e a visualização dos ficheiros já submetidos.</para>
+        <para> Este trabalho possui duas aplicações, uma que contém duas páginas, uma para submissão e outra para visualizaação dos ficheiros submetidos. A outra aplicação implementa essas funcionalidades todas na mesma página.</para>
+        <para> O projeto <italico>NodeJS</italico> foi gerido com o <italico>package manager</italico> do <italico>NodeJS</italico> permitindo guardar as dependências para os projetos permanentemente (<italico>pug</italico>,<italico>jsonfile</italico>,<italico>express</italico>,<italico>formidable</italico> e <italico>morgan</italico>). O servidor é corrido recorrendo ao comando <italico>npm test</italico>.</para>
+        <para> O <italico><negrito> rendering </negrito></italico> das páginas é feito com recurso a templates <italico>PUG</italico> e a uma base de dados dinâmica em <italico>JSON</italico>, que guarda todas as indicações dos ficheiros submetidos.</para>
+        <para> Na secção de resultados encontra-se um link para a pasta do TP7, onde se encontram duas pastas, correspondentes a cada uma das aplicações elaboradas.</para>
+    </resumo>
+    <resultados>
+        <resultado url="manifesto_tp7.xml"> Manifesto (formato XML)</resultado>
+        <resultado url="manifesto_tp7.html"> Manifesto (formato HTML)</resultado>
+        <resultado url="https://github.com/nall1994/web1819_A70132/tree/master/TP7">Página github com os resultados do trabalho</resultado>
+    </resultados>
+</manifesto>
