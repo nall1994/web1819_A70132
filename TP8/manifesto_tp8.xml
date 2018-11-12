@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <meta>
+        <identificador> web2018::A70132::T8</identificador>
+        <titulo> TPC8 - Aplicação fileStore </titulo>
+        <subtitulo> Construção de um website de submissão e armazenamento de ficheiros com NodeJS, AJAX e JQuery</subtitulo>
+        <dinicio> 11/11/2018</dinicio>
+        <dfim> 12/11/2018 </dfim>
+        <supervisor>
+            <nome> José Carlos Ramalho</nome>
+            <email> jcr@di.uminho.pt</email>
+            <website> http://www4.di.uminho.pt/~jcr/ </website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome> Nuno André Lopes Leite</nome>
+            <identificador> A70132</identificador>
+            <email> a70132@alunos.uminho.pt</email>
+            <foto path="nuno.jpg"/>
+        </membro>
+    </equipa>
+    <resumo>
+        <para> O objetivo deste trabalho assenta na construção de um servidor, utilizando para o efeito o <italico>NodeJS</italico>, capaz de suportar um website de submissão e armazenamento de ficheiros.</para>
+        <para> Este website permite a submissão de um ficheiro e a visualização dos ficheiros já submetidos.</para>
+        <para> A aplicação construída é uma <italico><negrito>Single Page Application</negrito></italico>, onde todas as acções realizadas são tratados com recurso a <italico>AJAX</italico> e <italico>Jquery</italico> que, posteriormente, reencaminham a informação e os pedidos para o servidor (que escuta na porta 4008). </para>
+        <para> O projeto <italico>NodeJS</italico> foi gerido com o <italico>package manager</italico> do <italico>NodeJS</italico> permitindo guardar as dependências para os projetos permanentemente (<italico>pug</italico>,<italico>jsonfile</italico>,<italico>express</italico>,<italico>formidable</italico> e <italico>morgan</italico>). O servidor é corrido recorrendo ao comando <italico>npm test</italico>.</para>
+        <para> O <italico><negrito> rendering </negrito></italico> das páginas é feito com recurso a templates <italico>PUG</italico> e a uma base de dados dinâmica em <italico>JSON</italico>, que guarda todas as indicações dos ficheiros submetidos.</para>
+        <para> Na secção de resultados encontra-se um link para a pasta do TP8, onde se encontra a pasta fileStore, contendo a aplicação e os manifestos.</para>
+    </resumo>
+    <resultados>
+        <resultado url="manifesto_tp8.xml"> Manifesto (formato XML)</resultado>
+        <resultado url="manifesto_tp8.html"> Manifesto (formato HTML)</resultado>
+        <resultado url="https://github.com/nall1994/web1819_A70132/tree/master/TP8">Página github com os resultados do trabalho</resultado>
+    </resultados>
+</manifesto>

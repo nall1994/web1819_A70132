@@ -1,0 +1,10 @@
+tr
+    th Nome do Ficheiro
+    th Descrição
+    th Data de Submissão
+each elem in tabela
+    tr
+        td
+            a( target="_blank", rel="noopener noreferrer", href='http://localhost:4008/uploaded/' + elem.nome)= elem.nome
+        td= elem.descricao
+        td= elem.dataSubmissao

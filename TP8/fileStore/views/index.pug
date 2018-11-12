@@ -1,5 +1,27 @@
 extends layout
-
 block content
-  h1= title
-  p Welcome to #{title}
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-indigo
+        h3(align='center') FileStore
+      .w3-container
+        h3.w3-teal(align='center') Submissão de Ficheiros
+        form.w3-container(id='fileForm')
+          fieldset
+            legend.w3-indigo Nova Submissão de Ficheiro
+            label.w3-blue
+              b Escolher Ficheiro
+            input.w3-input.w3-border.w3-light-grey(type='file', id='ficheiro', name='file')
+            label.w3-blue
+              b Descrição
+            input.w3-input.w3-border.w3-light-grey(type='text', id='descricao', name='descricao')
+            button.w3-button.w3-round-large.w3-blue(id='adicionar') +
+        br
+        hr.w3-color-indigo(style='height: 3px;color: #0a0082; background-color: #0a0082;')
+      .w3-container
+        h3.w3-teal(align='center') Catálogo de Ficheiros
+        table.w3-table-all(id='ficheiros')
+        br
+      footer.w3-container.w3-indigo
+        address(align='center') Gerado por fileStore APP
+
