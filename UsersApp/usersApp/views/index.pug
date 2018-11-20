@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  .w3-card-4
+    header.w3-container.w3-indigo
+      h1 Gestão de Utilizadores
+    .w3-container
+      .w3-container
+        ul.w3-ul.w3-border
+          li
+            button.w3-button.w3-blue(id='listar') Listar Utilizadores Existentes
+          li
+            input.w3-input.w3-border.w3-light-grey(type='text' id='campo' placeholder='Insira o email pelo qual pretende procurar')
+            button.w3-button.w3-blue(id='consultar') Consultar Utilizador por email
+          li
+            form.w3-container(id='userForm')
+              input.w3-input.w3-border.w3-light-grey(type='file', name='foto',id='foto')
+              input.w3-input.w3-border.w3-light-grey(type='email', name='email',id='email', placeholder='Insira o seu email')
+              input.w3-input.w3-border.w3-light-grey(type='text', name='nome',id='nome', placeholder='Insira o seu nome')
+              input.w3-input.w3-border.w3-light-grey(type='text', name='nivelAcesso',id='nivelAcesso',placeholder='Insira o seu nivel de acesso: admin ou user')
+              input.w3-input.w3-border.w3-light-grey(type='password', name='password',id='password', placeholder='password')
+              button.w3-button.w3-blue(id='inserir') Inserir Utilizador
+          li
+            input.w3-input.w3-border.w3-light-grey(type='email', name='updateEmail',id='updateEmail', placeholder='Insira o seu email')
+            button.w3-button.w3-blue(id='atualizar') Atualizar informação de utilizador
+            form.w3-container(id='updateForm', style='display: none')
+              input.w3-input.w3-border.w3-light-grey(type='text', name='updateNome',id='updateNome')
+              input.w3-input.w3-border.w3-light-grey(type='text', name='updateNivelAcesso',id='updateNivelAcesso')
+              input.w3-input.w3-border.w3-light-grey(type='password', name='updatePassword',id='updatePassword')
+              button.w3-button.w3-blue(id='atualizarButton') Submeter Alterações
+      hr.w3-color-teal(style='height: 3px;color: #008080; background-color: #008080;')
+      .w3-container
+        div(id='infoSection')
+          h3.w3-blue Resultados
+      hr.w3-color-teal(style='height: 3px;color: #008080; background-color: #008080;')
+    footer.w3-container.w3-indigo
+      address Gerado por usersApp
