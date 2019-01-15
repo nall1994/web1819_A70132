@@ -1,0 +1,65 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <title> Manifesto </title>
+   </head>
+   <body>
+      <h1 align="center">Manifesto</h1>
+      
+      <hr>
+      <div id="meta">
+         <b>IDENTIFICADOR: </b> DWEB2018::Teste::A70132<br>
+         <b>TÍTULO: </b> Teste de Desenvolvimento de Aplicações Web <br>
+         <b>SUB-TÍTULO: </b> Resolução de dois exercícios <br>
+         <b>DATA DE INÍCIO: </b> 15/01/2019<br>
+         <b>DATA DE FIM: </b> 15/01/2019 <br>
+         <b> SUPERVISOR: </b><a href=" http://www4.di.uminho.pt/~jcr/ "> José Carlos Ramalho</a> , <a href="mailto: jcr@di.uminho.pt"> Enviar E-mail</a>
+         
+      </div>
+      <hr>
+      
+      <hr>
+      <div id="equipa"><b> EQUIPA </b><br><ol>
+            
+            <li> A70132 - <a href=""> Nuno André Lopes Leite</a> -&gt; <a href="mailto: a70132@alunos.uminho.pt"> Enviar Correio </a></li><img src="nuno.jpg" width="70" height="100">
+            
+         </ol>
+      </div>
+      <hr>
+      
+      <hr>
+      <div id="resumo"><b>RESUMO </b><br>
+         
+         <p> Neste resumo, explicarei o que foi feito e onde se podem encontrar os resultados (os links estarão na secção de resultados). </p>
+         <p> No primeiro exercício utilizei um convertor online de <i>XML</i> para <i>JSON</i> e de seguida alterei o atributo "-id" para "_id", verificando no mongoDB se a inserção de documentos tinha a mesma contagem para cada uma das opções (todos os ids eram diferentes). O ficheiro devolvido pelo conversor veio imediatamente em array, o que facilitou a tarefa. Esse ficheiro encontra-se na pasta exercicio1 chamado de <i>compositores.json</i></p>
+         <p> Para executar esta aplicação deverá colocar a funcionar o servidor de mongoDB, criando a base de dados <i>testeEX1</i> e a colecção <i>compositores</i> e, de forma a preencher a base de dados deve executar o seguinte comando, na diretoria do exercicio 1:</p>
+         <code>mongoimport --db testeEX1 --collection compositores --type json --file compositores.json --jsonArray </code>
+         <p> Além disso, é necessário correr o servidor com <i> npm start</i> dentro da pasta do exercicio 1. Os pedidos deste exercício são escutados na porta 3000.</p>
+         <p> A partir deste momento, o servidor da API de dados está pronto a utilizar.</p>
+         <p> No segundo exercício, respondi primeiro às três perguntas pedidas. Essas respostas estão na pasta respostaQueries dentro da pasta exercicio2. <i>query1.json</i> refere-se à primeira pergunta e assim sucessivamente.</p>
+         <p> A resposta à primeira pergunta é 22. A resposta à segunda pergunta é 116 . A resposta à terceira pergunta é 58.</p>
+         <p> Finalmente, para executar a aplicação também desenvolvida no segundo exercício, basta executar o servidor dentro da pasta exercício 2 com <i>npm start</i>.</p>
+         <p> Este servidor do segundo exercício escuta pedidos na porta 3001.</p>
+         <p> <b>Nota:</b> A pasta node_modules foi apagada devido ao seu tamanho, em qualquer um dos casos terá que se fazer: <i>npm install</i></p>
+
+
+         
+      </div>
+      <hr>
+      
+      <hr><b> RESULTADOS </b><br><div id="resultados">
+         <ul>
+            
+            <li><a href="manifesto_tp8.xml"> Manifesto (formato XML)</a></li><br>
+            
+            <li><a href="manifesto_tp8.html"> Manifesto (formato HTML)</a></li><br>
+            
+            <li><a href="https://github.com/nall1994/web1819_A70132/tree/master/TP8">Página github com os resultados do trabalho</a></li><br>
+            
+         </ul>
+      </div>
+      <hr>
+      
+   </body>
+</html>

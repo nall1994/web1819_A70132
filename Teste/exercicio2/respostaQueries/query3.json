@@ -1,0 +1,292 @@
+[
+    {
+        "codigo": "150.10.700",
+        "titulo": "Reunião de órgãos deliberativos",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c150.10.700"
+    },
+    {
+        "codigo": "150.10.701",
+        "titulo": "Reunião de órgãos executivos",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c150.10.701"
+    },
+    {
+        "codigo": "150.10.702",
+        "titulo": "Reunião de órgãos e estruturas operacionais e de aconselhamento",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c150.10.702"
+    },
+    {
+        "codigo": "150.40.001",
+        "titulo": "Realização de operações estatísticas oficiais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c150.40.001"
+    },
+    {
+        "codigo": "150.40.500",
+        "titulo": "Recolha e tratamento de dados estatísticos de apoio à gestão",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c150.40.500"
+    },
+    {
+        "codigo": "200.10.002",
+        "titulo": "Representação e participação em organizações internacionais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.10.002"
+    },
+    {
+        "codigo": "200.30.600",
+        "titulo": "Apoio à internacionalização e à promoção do país",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.600"
+    },
+    {
+        "codigo": "200.30.001",
+        "titulo": "Coordenação e execução de ações de ajuda humanitária e de emergência",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c200.30.001"
+    },
+    {
+        "codigo": "400.30.602",
+        "titulo": "Registo de cláusulas contratuais abusivas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c400.30.602"
+    },
+    {
+        "codigo": "450.20.001",
+        "titulo": "Reconhecimento de pessoas coletivas de utilidade pública",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.20.001"
+    },
+    {
+        "codigo": "450.10.648",
+        "titulo": "Reconhecimento das  características e origem de animais, bens, produtos e serviços",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.648"
+    },
+    {
+        "codigo": "450.10.441",
+        "titulo": "Reconhecimento de títulos de profissões regulamentadas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.441"
+    },
+    {
+        "codigo": "450.10.440",
+        "titulo": "Reconhecimento de títulos de profissões reguladas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.440"
+    },
+    {
+        "codigo": "450.10.444",
+        "titulo": "Reconhecimento de requisitos e competência técnica a entidades",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.444"
+    },
+    {
+        "codigo": "450.10.229",
+        "titulo": "Procedimento de avaliação de impactos ambientais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.229"
+    },
+    {
+        "codigo": "450.10.442",
+        "titulo": "Reconhecimento de títulos profissionais obtidos no estrangeiro",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.442"
+    },
+    {
+        "codigo": "450.10.445",
+        "titulo": "Acreditação de entidade para prestação de serviços de avaliação de conformidade",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.445"
+    },
+    {
+        "codigo": "450.10.803",
+        "titulo": "Autorização para angariação de receitas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.803"
+    },
+    {
+        "codigo": "500.10.001",
+        "titulo": "Realização de auditorias",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c500.10.001"
+    },
+    {
+        "codigo": "500.10.300",
+        "titulo": "Realização de inspeção",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c500.10.300"
+    },
+    {
+        "codigo": "500.20.004",
+        "titulo": "Realização de investigação técnica a acidentes e incidentes",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c500.20.004"
+    },
+    {
+        "codigo": "550.10.002",
+        "titulo": "Ação de segurança a eventos de alto risco",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c550.10.002"
+    },
+    {
+        "codigo": "550.20.003",
+        "titulo": "Realização de exercícios e simulacros",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c550.20.003"
+    },
+    {
+        "codigo": "550.20.500",
+        "titulo": "Ação de proteção e socorro",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c550.20.500"
+    },
+    {
+        "codigo": "550.30.006",
+        "titulo": "Realização de exercícios militares",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c550.30.006"
+    },
+    {
+        "codigo": "600.20.600",
+        "titulo": "Ação em arbitragem",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.20.600"
+    },
+    {
+        "codigo": "600.20.001",
+        "titulo": "Ação em julgado de paz",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.20.001"
+    },
+    {
+        "codigo": "600.30.279",
+        "titulo": "Atribuição de bens de pessoa coletiva extinta",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.279"
+    },
+    {
+        "codigo": "600.30.200",
+        "titulo": "Ação declarativa comum",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.200"
+    },
+    {
+        "codigo": "600.30.557",
+        "titulo": "Intimação administrativa para a proteção de direitos, liberdades e garantias",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.557"
+    },
+    {
+        "codigo": "600.30.250",
+        "titulo": "Tutela da personalidade",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.250"
+    },
+    {
+        "codigo": "600.30.256",
+        "titulo": "Liquidação das heranças vagas em benefício do Estado",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.256"
+    },
+    {
+        "codigo": "600.30.267",
+        "titulo": "Ação judicial de herança jacente",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.267"
+    },
+    {
+        "codigo": "600.30.282",
+        "titulo": "Prestação de contas dos representantes legais de incapazes e do depositário judicial",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.282"
+    },
+    {
+        "codigo": "600.30.353",
+        "titulo": "Ação especial de insolvência e de recuperação de empresas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.353"
+    },
+    {
+        "codigo": "600.30.354",
+        "titulo": "Ação especial de revitalização",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.354"
+    },
+    {
+        "codigo": "600.30.402",
+        "titulo": "Obrigação de prestar informações sobre propriedade intelectual",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.402"
+    },
+    {
+        "codigo": "600.30.553",
+        "titulo": "Oposição à aquisição da nacionalidade",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.30.553"
+    },
+    {
+        "codigo": "600.10.506",
+        "titulo": "Ação de proteção de testemunhas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.10.506"
+    },
+    {
+        "codigo": "600.40.500",
+        "titulo": "Ação executiva",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.40.500"
+    },
+    {
+        "codigo": "600.40.002",
+        "titulo": "Execução de pena e medida privativa da liberdade em meio prisional",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.40.002"
+    },
+    {
+        "codigo": "600.40.600",
+        "titulo": "Execução por custas, multas, coimas e outras quantias contadas ou liquidadas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c600.40.600"
+    },
+    {
+        "codigo": "710.20.001",
+        "titulo": "Inumação e cremação de restos mortais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c710.20.001"
+    },
+    {
+        "codigo": "750.10.001",
+        "titulo": "Seleção e seriação para ingresso no ensino ou formação",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.001"
+    },
+    {
+        "codigo": "750.10.600",
+        "titulo": "Controlo de assiduidade de alunos ou formandos",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.600"
+    },
+    {
+        "codigo": "750.20.002",
+        "titulo": "Conceção, revisão e extinção de planos de ações de formação",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.20.002"
+    },
+    {
+        "codigo": "750.30.602",
+        "titulo": "Reconhecimento, creditação e validação de competências e qualificações",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c750.30.602"
+    },
+    {
+        "codigo": "850.10.002",
+        "titulo": "Formalização de candidaturas e acompanhamento de apoios regulares",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c850.10.002"
+    },
+    {
+        "codigo": "850.10.003",
+        "titulo": "Formalização de candidaturas e acompanhamento de apoios pontuais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c850.10.003"
+    },
+    {
+        "codigo": "900.10.501",
+        "titulo": "Organização e participação em iniciativas de partilha e debate crítico",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.501"
+    },
+    {
+        "codigo": "900.10.002",
+        "titulo": "Conceção e realização de atividades desportivas ou recreativas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.002"
+    },
+    {
+        "codigo": "900.10.001",
+        "titulo": "Conceção e realização de atividades ou acontecimentos artísticos",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.001"
+    },
+    {
+        "codigo": "900.10.500",
+        "titulo": "Organização e participação em homenagens e cerimónias comemorativas",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.500"
+    },
+    {
+        "codigo": "900.20.601",
+        "titulo": "Organização de cerimónias protocolares",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.601"
+    },
+    {
+        "codigo": "900.20.602",
+        "titulo": "Organização de visitas institucionais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.602"
+    },
+    {
+        "codigo": "950.10.602",
+        "titulo": "Apuramento geral de resultados",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c950.10.602"
+    },
+    {
+        "codigo": "950.10.200",
+        "titulo": "Apreciação e admissão de candidaturas a atos eleitorais",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c950.10.200"
+    },
+    {
+        "codigo": "950.10.600",
+        "titulo": "Controlo de operações de votação e apuramento parcial de resultados",
+        "id": "http://jcr.di.uminho.pt/m51-clav#c950.10.600"
+    }
+]

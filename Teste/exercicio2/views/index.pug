@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  header.w3-container.w3-indigo
+    h1(align='center') Classificação e avaliação de informação pública
+  .w3-container
+    h2.w3-indigo(align='center') Contexto
+    p Nesta página, pode navegar pelos diferentes níveis de informação pública existentes (1 até 4), simplesmente clicando nos mesmos.
+    p De seguida, apresentam-se os processos de nível 1.
+  br
+  hr
+  br
+  .w3-container
+    h2.w3-indigo(align='center') Navegação
+    ul.w3-ul
+      each processo in processos
+        li.w3-li
+          -var codigo = processo.codigo
+          -var titulo = processo.titulo
+          a.w3-hover-teal(href='http://localhost:3001/desc/' + codigo) #{titulo} #{codigo}
+  br
+  footer.w3-container.w3-indigo
+    a(href='http://localhost:3001') Voltar à página inicial

@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  header.w3-container.w3-indigo
+    h1(align='center') Classificação e avaliação de informação pública
+  .w3-container
+    h2.w3-indigo(align='center') Contexto
+    - var parent = infoProcesso.codigo
+    p.w3-center
+        b #{infoProcesso.titulo} (#{infoProcesso.codigo})
+    if infoProcesso.tituloPai
+        p
+            b Processo Pai:
+            p #{infoProcesso.tituloPai} (#{infoProcesso.codigoPai}) 
+    if infoProcesso.status
+        p
+            b Status:
+            p #{infoProcesso.status}
+    if infoProcesso.desc
+        p
+            b Descrição:
+            p #{infoProcesso.desc}           
+  br
+  hr
+  br
+  .w3-container
+    h2.w3-indigo(align='center') Navegação nos descendentes
+    ul.w3-ul
+        if processos.length
+            each processo in processos
+                li.w3-li
+                    -var codigo = processo.codigo
+                    -var titulo = processo.titulo
+                    a.w3-hover-teal(href='http://localhost:3001/desc/' + codigo) #{titulo} #{codigo}
+        else
+            p.w3-text-grey.w3-center.w3-large O processo pai não tem descendentes!
+  br
+  footer.w3-container.w3-indigo
+    a.w3-hover-teal(href='http://localhost:3001') Voltar à página inicial
